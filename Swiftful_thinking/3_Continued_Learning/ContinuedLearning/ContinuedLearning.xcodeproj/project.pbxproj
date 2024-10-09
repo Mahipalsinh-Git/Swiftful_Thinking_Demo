@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2640A3702CB6156B006891C1 /* 20_Escaping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2640A36F2CB6156B006891C1 /* 20_Escaping.swift */; };
 		26A5E3C92CB580AC005D14E5 /* 17_BackgroundThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5E3C82CB580AC005D14E5 /* 17_BackgroundThread.swift */; };
 		26A5E3CB2CB58885005D14E5 /* 18_WeakSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5E3CA2CB58885005D14E5 /* 18_WeakSelf.swift */; };
 		26A5E3CD2CB59004005D14E5 /* 19_TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A5E3CC2CB59004005D14E5 /* 19_TypeAlias.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2640A36F2CB6156B006891C1 /* 20_Escaping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_Escaping.swift; sourceTree = "<group>"; };
 		26A5E3C82CB580AC005D14E5 /* 17_BackgroundThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17_BackgroundThread.swift; sourceTree = "<group>"; };
 		26A5E3CA2CB58885005D14E5 /* 18_WeakSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18_WeakSelf.swift; sourceTree = "<group>"; };
 		26A5E3CC2CB59004005D14E5 /* 19_TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 19_TypeAlias.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				26A5E3C82CB580AC005D14E5 /* 17_BackgroundThread.swift */,
 				26A5E3CA2CB58885005D14E5 /* 18_WeakSelf.swift */,
 				26A5E3CC2CB59004005D14E5 /* 19_TypeAlias.swift */,
+				2640A36F2CB6156B006891C1 /* 20_Escaping.swift */,
 				E12621AB2C76126200EC7743 /* Assets.xcassets */,
 				E12621AD2C76126200EC7743 /* Preview Content */,
 			);
@@ -255,6 +258,7 @@
 				26EB14172CB4375900377575 /* 16_CoreData_Relationship.swift in Sources */,
 				26A5E3CD2CB59004005D14E5 /* 19_TypeAlias.swift in Sources */,
 				E1E3E3012CB3A9FE00D34940 /* 8_MaskDemo.swift in Sources */,
+				2640A3702CB6156B006891C1 /* 20_Escaping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
