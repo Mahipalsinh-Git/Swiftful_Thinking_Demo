@@ -20,7 +20,10 @@
 		E12621B62C761A4A00EC7743 /* 2_MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12621B52C761A4A00EC7743 /* 2_MagnificationGesture.swift */; };
 		E158DD702CC10E2A00FDB613 /* 22_Download_Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158DD6F2CC10E2A00FDB613 /* 22_Download_Json.swift */; };
 		E17F10FD2CB634DC004B5251 /* 21_Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17F10FC2CB634DB004B5251 /* 21_Codable.swift */; };
+		E188490A2CC23684001BBD04 /* 24_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18849092CC23684001BBD04 /* 24_Timer.swift */; };
+		E188490C2CC2658F001BBD04 /* 25_CustomCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188490B2CC2658F001BBD04 /* 25_CustomCombine.swift */; };
 		E1B0725B2C984A6E00A33B0F /* 7_MultipleSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B0725A2C984A6E00A33B0F /* 7_MultipleSheets.swift */; };
+		E1B809832CC2236B00974E30 /* 23_Download_Json_Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B809822CC2236B00974E30 /* 23_Download_Json_Combine.swift */; };
 		E1E3E3012CB3A9FE00D34940 /* 8_MaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3E3002CB3A9FE00D34940 /* 8_MaskDemo.swift */; };
 		E1E3E3032CB3B0C700D34940 /* 9_SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3E3022CB3B0C700D34940 /* 9_SoundEffect.swift */; };
 		E1E3E3072CB3B3DC00D34940 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1E3E3062CB3B3DC00D34940 /* tada.mp3 */; };
@@ -54,7 +57,10 @@
 		E12621B52C761A4A00EC7743 /* 2_MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_MagnificationGesture.swift; sourceTree = "<group>"; };
 		E158DD6F2CC10E2A00FDB613 /* 22_Download_Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 22_Download_Json.swift; sourceTree = "<group>"; };
 		E17F10FC2CB634DB004B5251 /* 21_Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 21_Codable.swift; sourceTree = "<group>"; };
+		E18849092CC23684001BBD04 /* 24_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 24_Timer.swift; sourceTree = "<group>"; };
+		E188490B2CC2658F001BBD04 /* 25_CustomCombine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25_CustomCombine.swift; sourceTree = "<group>"; };
 		E1B0725A2C984A6E00A33B0F /* 7_MultipleSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7_MultipleSheets.swift; sourceTree = "<group>"; };
+		E1B809822CC2236B00974E30 /* 23_Download_Json_Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 23_Download_Json_Combine.swift; sourceTree = "<group>"; };
 		E1BADDD92CBCEF2B000524A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E1E3E3002CB3A9FE00D34940 /* 8_MaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8_MaskDemo.swift; sourceTree = "<group>"; };
 		E1E3E3022CB3B0C700D34940 /* 9_SoundEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9_SoundEffect.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 				2640A36F2CB6156B006891C1 /* 20_Escaping.swift */,
 				E17F10FC2CB634DB004B5251 /* 21_Codable.swift */,
 				E158DD6F2CC10E2A00FDB613 /* 22_Download_Json.swift */,
+				E1B809822CC2236B00974E30 /* 23_Download_Json_Combine.swift */,
+				E18849092CC23684001BBD04 /* 24_Timer.swift */,
+				E188490B2CC2658F001BBD04 /* 25_CustomCombine.swift */,
 				E12621AB2C76126200EC7743 /* Assets.xcassets */,
 				E12621AD2C76126200EC7743 /* Preview Content */,
 			);
@@ -253,9 +262,12 @@
 				E17F10FD2CB634DC004B5251 /* 21_Codable.swift in Sources */,
 				E12621AA2C76125F00EC7743 /* 1_longPressedGesture.swift in Sources */,
 				E12621B62C761A4A00EC7743 /* 2_MagnificationGesture.swift in Sources */,
+				E188490C2CC2658F001BBD04 /* 25_CustomCombine.swift in Sources */,
 				26EB141B2CB4398600377575 /* CoreDataContainer.xcdatamodeld in Sources */,
 				E1E3E30A2CB3B57700D34940 /* 10_Haptics.swift in Sources */,
+				E188490A2CC23684001BBD04 /* 24_Timer.swift in Sources */,
 				E1EBEEAE2C94099500756787 /* 4_DragGesture.swift in Sources */,
+				E1B809832CC2236B00974E30 /* 23_Download_Json_Combine.swift in Sources */,
 				E158DD702CC10E2A00FDB613 /* 22_Download_Json.swift in Sources */,
 				E1EBEEB02C94104100756787 /* 4_1_DragGesture2.swift in Sources */,
 				E1EBEEB42C94444C00756787 /* 6_GeometryReader.swift in Sources */,
