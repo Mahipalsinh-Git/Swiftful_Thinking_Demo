@@ -35,6 +35,15 @@
 		E1E3E3162CB3EC0100D34940 /* 14_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3E3152CB3EC0100D34940 /* 14_CoreData.swift */; };
 		E1E3E3642CB3FD7C00D34940 /* 15_CoreDataMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3E3632CB3FD7C00D34940 /* 15_CoreDataMVVM.swift */; };
 		E1E3E36B2CB4006E00D34940 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1E3E3692CB4006E00D34940 /* FruitsContainer.xcdatamodeld */; };
+		E1E799A02CC75E0B0038813B /* DownloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7999F2CC75E0B0038813B /* DownloadingImagesBootcamp.swift */; };
+		E1E799A22CC75FE50038813B /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799A12CC75FE50038813B /* PhotoModel.swift */; };
+		E1E799A62CC763840038813B /* DownloadingImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799A52CC763840038813B /* DownloadingImageViewModel.swift */; };
+		E1E799AA2CC7650D0038813B /* PhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799A92CC7650D0038813B /* PhotoModelDataService.swift */; };
+		E1E799AC2CC76CAC0038813B /* DownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799AB2CC76CAC0038813B /* DownloadingImagesRow.swift */; };
+		E1E799AE2CC76D9B0038813B /* DownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799AD2CC76D9B0038813B /* DownloadingImageView.swift */; };
+		E1E799B02CC76E010038813B /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799AF2CC76E010038813B /* ImageLoadingViewModel.swift */; };
+		E1E799B22CC78A050038813B /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799B12CC78A050038813B /* PhotoModelCacheManager.swift */; };
+		E1E799B42CC78BDA0038813B /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E799B32CC78BDA0038813B /* PhotoModelFileManager.swift */; };
 		E1EBEEAC2C94051D00756787 /* 3_RotationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBEEAB2C94051D00756787 /* 3_RotationGesture.swift */; };
 		E1EBEEAE2C94099500756787 /* 4_DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBEEAD2C94099500756787 /* 4_DragGesture.swift */; };
 		E1EBEEB02C94104100756787 /* 4_1_DragGesture2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBEEAF2C94104100756787 /* 4_1_DragGesture2.swift */; };
@@ -73,6 +82,15 @@
 		E1E3E3152CB3EC0100D34940 /* 14_CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_CoreData.swift; sourceTree = "<group>"; };
 		E1E3E3632CB3FD7C00D34940 /* 15_CoreDataMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_CoreDataMVVM.swift; sourceTree = "<group>"; };
 		E1E3E36A2CB4006E00D34940 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		E1E7999F2CC75E0B0038813B /* DownloadingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesBootcamp.swift; sourceTree = "<group>"; };
+		E1E799A12CC75FE50038813B /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		E1E799A52CC763840038813B /* DownloadingImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageViewModel.swift; sourceTree = "<group>"; };
+		E1E799A92CC7650D0038813B /* PhotoModelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelDataService.swift; sourceTree = "<group>"; };
+		E1E799AB2CC76CAC0038813B /* DownloadingImagesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesRow.swift; sourceTree = "<group>"; };
+		E1E799AD2CC76D9B0038813B /* DownloadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImageView.swift; sourceTree = "<group>"; };
+		E1E799AF2CC76E010038813B /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		E1E799B12CC78A050038813B /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		E1E799B32CC78BDA0038813B /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 		E1EBEEAB2C94051D00756787 /* 3_RotationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_RotationGesture.swift; sourceTree = "<group>"; };
 		E1EBEEAD2C94099500756787 /* 4_DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_DragGesture.swift; sourceTree = "<group>"; };
 		E1EBEEAF2C94104100756787 /* 4_1_DragGesture2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_1_DragGesture2.swift; sourceTree = "<group>"; };
@@ -157,6 +175,7 @@
 				E1B809822CC2236B00974E30 /* 23_Download_Json_Combine.swift */,
 				E18849092CC23684001BBD04 /* 24_Timer.swift */,
 				E188490B2CC2658F001BBD04 /* 25_CustomCombine.swift */,
+				E1E7999A2CC75D900038813B /* 28_DownloadingImage */,
 				E12621AB2C76126200EC7743 /* Assets.xcassets */,
 				E12621AD2C76126200EC7743 /* Preview Content */,
 			);
@@ -178,6 +197,54 @@
 				E1E3E3062CB3B3DC00D34940 /* tada.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E1E7999A2CC75D900038813B /* 28_DownloadingImage */ = {
+			isa = PBXGroup;
+			children = (
+				E1E7999E2CC75DC50038813B /* Models */,
+				E1E7999D2CC75DBC0038813B /* Utilitiess */,
+				E1E7999C2CC75DB30038813B /* ViewModels */,
+				E1E7999B2CC75DAB0038813B /* Views */,
+			);
+			path = 28_DownloadingImage;
+			sourceTree = "<group>";
+		};
+		E1E7999B2CC75DAB0038813B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1E7999F2CC75E0B0038813B /* DownloadingImagesBootcamp.swift */,
+				E1E799AB2CC76CAC0038813B /* DownloadingImagesRow.swift */,
+				E1E799AD2CC76D9B0038813B /* DownloadingImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1E7999C2CC75DB30038813B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E1E799A52CC763840038813B /* DownloadingImageViewModel.swift */,
+				E1E799AF2CC76E010038813B /* ImageLoadingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E1E7999D2CC75DBC0038813B /* Utilitiess */ = {
+			isa = PBXGroup;
+			children = (
+				E1E799A92CC7650D0038813B /* PhotoModelDataService.swift */,
+				E1E799B12CC78A050038813B /* PhotoModelCacheManager.swift */,
+				E1E799B32CC78BDA0038813B /* PhotoModelFileManager.swift */,
+			);
+			path = Utilitiess;
+			sourceTree = "<group>";
+		};
+		E1E7999E2CC75DC50038813B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1E799A12CC75FE50038813B /* PhotoModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +320,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A5E3C92CB580AC005D14E5 /* 17_BackgroundThread.swift in Sources */,
+				E1E799A02CC75E0B0038813B /* DownloadingImagesBootcamp.swift in Sources */,
 				E1E3E36B2CB4006E00D34940 /* FruitsContainer.xcdatamodeld in Sources */,
+				E1E799AC2CC76CAC0038813B /* DownloadingImagesRow.swift in Sources */,
 				E1EBEEB22C941A9600756787 /* 5_ScrollViewReader.swift in Sources */,
 				E1E3E3102CB3DE8E00D34940 /* 13_HigherOrderFunction.swift in Sources */,
 				E1E3E30E2CB3C79700D34940 /* 12_Hasable.swift in Sources */,
@@ -261,6 +330,7 @@
 				E1E3E30C2CB3BBDD00D34940 /* 11_Local_Push_Notification.swift in Sources */,
 				E17F10FD2CB634DC004B5251 /* 21_Codable.swift in Sources */,
 				E12621AA2C76125F00EC7743 /* 1_longPressedGesture.swift in Sources */,
+				E1E799B22CC78A050038813B /* PhotoModelCacheManager.swift in Sources */,
 				E12621B62C761A4A00EC7743 /* 2_MagnificationGesture.swift in Sources */,
 				E188490C2CC2658F001BBD04 /* 25_CustomCombine.swift in Sources */,
 				26EB141B2CB4398600377575 /* CoreDataContainer.xcdatamodeld in Sources */,
@@ -275,12 +345,18 @@
 				E1E3E3642CB3FD7C00D34940 /* 15_CoreDataMVVM.swift in Sources */,
 				E1E3E3032CB3B0C700D34940 /* 9_SoundEffect.swift in Sources */,
 				E1B0725B2C984A6E00A33B0F /* 7_MultipleSheets.swift in Sources */,
+				E1E799A22CC75FE50038813B /* PhotoModel.swift in Sources */,
 				26A5E3CB2CB58885005D14E5 /* 18_WeakSelf.swift in Sources */,
+				E1E799B02CC76E010038813B /* ImageLoadingViewModel.swift in Sources */,
 				E1EBEEAC2C94051D00756787 /* 3_RotationGesture.swift in Sources */,
 				26EB14172CB4375900377575 /* 16_CoreData_Relationship.swift in Sources */,
+				E1E799AE2CC76D9B0038813B /* DownloadingImageView.swift in Sources */,
 				26A5E3CD2CB59004005D14E5 /* 19_TypeAlias.swift in Sources */,
+				E1E799AA2CC7650D0038813B /* PhotoModelDataService.swift in Sources */,
 				E1E3E3012CB3A9FE00D34940 /* 8_MaskDemo.swift in Sources */,
 				2640A3702CB6156B006891C1 /* 20_Escaping.swift in Sources */,
+				E1E799B42CC78BDA0038813B /* PhotoModelFileManager.swift in Sources */,
+				E1E799A62CC763840038813B /* DownloadingImageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +499,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +530,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
